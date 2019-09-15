@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dabai.tool03.MainActivity">
+
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="定时刷新"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+</menu>
